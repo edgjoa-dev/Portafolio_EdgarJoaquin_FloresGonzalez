@@ -1,0 +1,35 @@
+@import '../EffectHover/hoverNav';
+@import '../mediaQueries/mediaNavbar';
+
+nav{
+    background-color: $about_work;
+    width: 100%;
+    position: fixed;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.nav__links{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-around;
+}
+
+a{
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: .5s;
+    text-transform: capitalize;
+}
+.active{
+    border-bottom: 3px solid $opt_color;
+}
+a:hover{
+    background-color: $opt_color;
+    border-radius: 5px;
+    font-weight: bolder;
+}

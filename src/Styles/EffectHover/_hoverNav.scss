@@ -1,0 +1,9 @@
+@import'../bases/bases';
+
+.navbar__item:hover{
+    background-color: $opt_color;
+    color: $primary_color;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: translateY(-5px);
+}

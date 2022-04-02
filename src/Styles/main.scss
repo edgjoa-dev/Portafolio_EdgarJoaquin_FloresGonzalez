@@ -1,0 +1,18 @@
+@import './bases/bases';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import './App';
+
+html, body{
+    background-color: $secundary_color;
+    box-sizing: border-box;
+    color: #f4f4f4;
+    font-family: "Roboto", "Helvetica Neue";
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
