@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## Direction Portfolio
+# Visit my Web site portfolio
 https://adgarjoaquin-flores-portapp.herokuapp.com/
 
 ## Available Scripts
