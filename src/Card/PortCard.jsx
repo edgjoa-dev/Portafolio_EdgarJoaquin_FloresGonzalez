@@ -2,12 +2,12 @@ import React from "react";
 import "../Styles/main.scss";
 
 export const PortCard = ({ id, title, text, url }) => {
-  const imgs = `/public/Assets/${id}.png`;
+  const imgPath = `assets/works/${id}.png`;
 
   return (
     <div className="container__card box__shadow">
       <div className="card__img">
-        <img src={imgs} alt={title} />
+        <img src={imgPath} alt={title} />
       </div>
 
       <div className="card__info">
