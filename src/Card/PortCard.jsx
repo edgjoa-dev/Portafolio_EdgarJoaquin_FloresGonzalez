@@ -1,5 +1,4 @@
 import React from "react";
-import { imgsWorks } from "../Helpers/worksImages";
 import "../Styles/main.scss";
 
 export const PortCard = ({ id, title, text, url }) => {
