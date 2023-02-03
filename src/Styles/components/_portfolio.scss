@@ -1,0 +1,22 @@
+@import "../components/CardStyles/portCards";
+
+.port__screen {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+  padding: 6rem 1rem;
+
+  h1 {
+    color: $opt_color;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+}

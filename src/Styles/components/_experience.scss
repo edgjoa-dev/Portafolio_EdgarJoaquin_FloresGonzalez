@@ -1,0 +1,69 @@
+@import '../bases/bases';
+
+
+.experince__screen{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-height: 100%;
+    padding: 2rem 1rem;
+
+
+    .experince__head{
+    align-items: center;
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+        .experince__title{
+            color: $opt_color;
+            margin-bottom: 3px;
+            text-transform: uppercase;
+        }
+            p{
+                margin-top: 1px;
+                text-transform: capitalize;
+                color: rgba($color: #f4f4f4, $alpha: .5);
+            }
+    }
+
+    .experince__grid{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        max-height: 100%;
+        max-width: 100%;
+
+
+        .expgrid__item{
+            align-items: center;
+            background-color: $about_work;
+            border-radius: 25px;
+            display: flex;
+            flex-flow: column;
+            height: 25rem;
+            justify-content: center;
+            margin: 1rem;
+            width: 30rem;
+
+            h3{
+                font-size: 20px;
+            }
+
+            .item__prop{
+                border-radius: 8px;
+                color: $color_text;
+                display: flex;
+                flex-flow: column;
+                height: 33px;
+                justify-content: center;
+                text-align: center;
+                text-transform: capitalize;
+                margin: .4rem 0rem;
+                width: 120px;
+            }
+        }
+    }
+}

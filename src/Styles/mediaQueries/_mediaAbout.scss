@@ -1,0 +1,26 @@
+@media screen and (max-width: 680px) {
+
+    .info__content{
+        height: fit-content;
+
+        .info__text{
+            height: fit-content;
+            font-size: 15px;
+            width: fit-content;
+            padding: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .info__content{
+        height: fit-content;
+
+        .info__text{
+            height: fit-content;
+            font-size: 12px;
+            width: fit-content;
+            padding: 1rem;
+        }
+    }
+}

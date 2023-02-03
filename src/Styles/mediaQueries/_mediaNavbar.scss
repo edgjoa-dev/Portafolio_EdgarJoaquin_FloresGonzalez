@@ -1,0 +1,56 @@
+@import'../bases/bases';
+
+@media screen and (max-width: 680px) {
+
+    nav{
+        height: 3rem;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+    .nav__links{
+        background-color: rgba($color: #000000, $alpha: .9);
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        left: 0px;
+        top: 0px;
+        position: fixed;
+        width: 100%;
+        animation: fadeInDownBig;
+        animation-duration: .8s;
+    }
+
+    a{
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        max-width: 30%;
+    }
+    .btn__menu{
+        background-color: transparent;
+        border: none;
+        display: block;
+        color: aliceblue;
+        font-weight: bolder;
+        height: 2rem;
+        position: fixed;
+        right: 8%;
+        top: 3%;
+        z-index: 2;
+        width: 2rem;
+        svg{
+            color: aquamarine;
+            height: 100%;
+            width: 100%;
+            transition: .5s;
+        }
+        svg:hover{
+            cursor: pointer;
+            color: $opt_color;
+        }
+    }
+
+}

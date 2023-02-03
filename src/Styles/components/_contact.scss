@@ -1,0 +1,97 @@
+@import '../bases/bases';
+
+.contact__screen{
+    background-color: $color_footer;
+    color: $secundary_color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    min-height: 100vh;
+    max-width: 100vw;
+    padding-top: 10rem;
+}
+
+.contact__title{
+    align-items: center;
+    align-content: center;
+    color: $primary_color;
+    font-size: 32px;
+    text-align: center;
+}
+
+.contact__title{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+
+    h3{
+        font-size: 28px;
+        letter-spacing: 4px;
+        text-transform: capitalize;
+    }
+}
+
+.contact__social{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 2rem;
+    max-width: 100vw;
+
+
+    .svg__icon{
+        background-color: $secundary_color;
+        border-radius: 10px;
+        display: flex;
+        height: 4rem;
+        gap: 1rem;
+        justify-content: center;
+        margin: 3px;
+        width: 4rem;
+        transition: 1s ease-in-out;
+
+        a{
+            align-items: center;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+    }
+
+    svg{
+
+        color: $color_text;
+        display: flex;
+        height: 2rem;
+        justify-content: center;
+        width: 2rem;
+
+
+    }
+}
+
+.contact__end{
+
+    display: flex;
+    flex-direction: column;
+    color: rgb(90, 90, 90);
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 25rem;
+    margin-top: 2rem;
+
+}
+
+
+svg:hover{
+    color: $primary_color;
+}
+.svg__icon:hover{
+    background-color: $color_text;
+    color: $primary_color;
+}
+a:hover{
+    background-color: transparent;
+}
